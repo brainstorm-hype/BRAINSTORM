@@ -1,16 +1,8 @@
 fileFormatVersion: 2
-guid: 636588b9430d6fb4f819afd7fff1254c
+guid: 0378910fff06dcc40b8366424f46a63b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-<<<<<<< HEAD
-    100000: //RootNode
-    400000: //RootNode
-    2100000: pullo
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Line001
-=======
     100000: Line001
     100002: Plane001
     100004: //RootNode
@@ -25,9 +17,6 @@ ModelImporter:
     3300002: Plane001
     4300000: Plane001
     4300002: Line001
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
->>>>>>> df95724e7a91f7207ce442b742a0c0825bd167fd
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -81,7 +70,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
