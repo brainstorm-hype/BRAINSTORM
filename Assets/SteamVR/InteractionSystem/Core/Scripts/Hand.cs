@@ -533,7 +533,7 @@ namespace Valve.VR.InteractionSystem
                     if (attachedObject.collisionDetectionMode == CollisionDetectionMode.Continuous)
                         attachedObject.attachedRigidbody.collisionDetectionMode = CollisionDetectionMode.Discrete;
 
-                    attachedObject.attachedRigidbody.isKinematic = false;
+                    attachedObject.attachedRigidbody.isKinematic = true;
                 }
             }
 
