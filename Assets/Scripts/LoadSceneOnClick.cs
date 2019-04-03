@@ -8,4 +8,9 @@ public class LoadSceneOnClick : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    void OnMouseDown(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
 }
