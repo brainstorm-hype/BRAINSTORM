@@ -9,20 +9,23 @@ public class RandomSpawn : MonoBehaviour
     //
     //
     //corner 4, 4, -4                           corner -4, 4, 4
-    public GameObject pullo_longneck;
+
     public List<GameObject> spawnObjects;
     // Start is called before the first frame update
     void Start()
     {
         SpawnObjects();
     }
-
+    private GameObject GetObject(List<GameObject> objects)
+    {
+        return spawnObjects[Random.Range(0, objects.Count - 1)];
+    }
     void SpawnObjects()
     {
         int counter = 0;
         while (counter < 100)
         {
-            Instantiate(pullo_longneck, GeneratePositions(), Quaternion.identity);
+            Instantiate(GetObject(spawnObjects), GeneratePositions(), Quaternion.identity);
             counter++;
         }     
     }
