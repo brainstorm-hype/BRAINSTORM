@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.branstorm.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\hypeh\\Desktop\\HYPE_Jesse_Mäkinen\\Unity\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "BRANSTORM [Testing]"
+        }
+      }
+    }
+  ]
+}
